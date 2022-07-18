@@ -16,8 +16,8 @@ const postData = (urlAPI, data) => {
 };
 
 const data = {
-  title: "New Shoes of Fly",
-  price: 100,
+  title: "New Shoes of Fly-216",
+  price: 1200,
   description: "New product for all your family and moment  of Fly",
   categoryId: 1,
   images: ["https://placeimg.com/640/480/any"],
