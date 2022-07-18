@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Christiano0407/Challenge_APIREST/issues"
   },
-  "homepage": "https://github.com/Christiano0407/Challenge_APIREST#readme"
+  "homepage": "https://github.com/Christiano0407/Challenge_APIREST#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.8"
+  },
+  "type": "module"
 }
