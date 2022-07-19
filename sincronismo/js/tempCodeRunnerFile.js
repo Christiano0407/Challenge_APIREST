@@ -14,10 +14,16 @@ const dataConsumer = async (urlAPI) => {
     const category = await fetchData(
       `${urlAPI}/categories/${product.category.id} `
     );
+    const users = await fetchData(`${urlAPI}/users`);
+    //const user = await fetchData(`${urlAPI}/users/ `);
 
     console.log(products);
     console.log(product.title);
+    console.log(product.price);
+    console.log(product.description);
     console.log(category.name);
+    console.log(users);
+    console.log(users.name);
   } catch (error) {
     console.log("Error! Error!");
   }
