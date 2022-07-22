@@ -4,7 +4,7 @@
   "description": "API Rest Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server -a localhost -p 5500"
   },
   "repository": {
     "type": "git",
